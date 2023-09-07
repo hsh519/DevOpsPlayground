@@ -44,8 +44,6 @@ build/
 *.war
 
 ### Static resources ###
-/src/main/resources/static/
-/src/main/resources/public/
 
 # Logs
 *.log
