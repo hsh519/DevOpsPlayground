@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-  devops_playground:
-    image: seokhwan0519/devops_playground
-    container_name: devops_playground
-    ports:
-      - "8080:8080"
