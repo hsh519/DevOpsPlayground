@@ -56,7 +56,6 @@ jobs:
         host: ${{ secrets.WAS_HOST }}
         username: ${{ secrets.WAS_USERNAME }}
         password: ${{ secrets.WAS_PASSWORD }}
-        key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
           sudo docker rm -f $(docker ps -qa)
