@@ -12,10 +12,14 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Data
 public class Member {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private int age;
+
+    public Member(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
